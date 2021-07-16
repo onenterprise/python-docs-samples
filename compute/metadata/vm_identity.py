@@ -60,7 +60,7 @@ def verify_token(token: str, audience: str) -> dict:
 # [END compute_vm_identity_verify_token]
 
 
-if __name__ == '__main__':
+if __name__ == 'onenterprise':
     token_ = acquire_token(AUDIENCE_URL)
     print("Received token:", token_)
     print("Token verification:")
